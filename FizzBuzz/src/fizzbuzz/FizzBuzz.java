@@ -3,11 +3,15 @@ package fizzbuzz;
 public class FizzBuzz {
 
     public String Say(int number) {
-        boolean isFizz = (number % 3) == 0;
-        boolean isBuzz = (number % 5) == 0;
-        if (isFizz && isBuzz) return "FizzBuzz";
-        if (isFizz) return "Fizz";
-        if (isBuzz) return "Buzz";
+        FizzBuzzRule fizzBuzzRule = new FizzBuzzRule();
+        if (fizzBuzzRule.validate(number)) return fizzBuzzRule.say();
+        
+        FizzRule fizzRule = new FizzRule();
+        if (fizzRule.validate(number)) return fizzRule.say();
+        
+        BuzzRule buzzRule = new BuzzRule();
+        if (buzzRule.validate(number)) return buzzRule.say();
+        
         return String.format("%d", number);
     }
     
