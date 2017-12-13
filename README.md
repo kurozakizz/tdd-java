@@ -10,6 +10,16 @@
 - [Tennis Kata](https://github.com/emilybache/Tennis-Refactoring-Kata)
 - [Spring Boot](https://github.com/up1/workshop_java_legacy)
 
+## Start Jenkins Warfile
+```sh
+java -jar jenkins.war --httpPort=9999
+```
+
+## Start Sprintboot
+```sh
+mvn spring-boot:run
+```
+
 # Book
 - *The Art of Unit Test
 - *TDD by Example
