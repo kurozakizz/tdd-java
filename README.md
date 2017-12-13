@@ -7,6 +7,7 @@
 - Loose Coupling High Cohesion
 - JUnit data driven
 - Refactoring
+- (Tennis Kata)[https://github.com/emilybache/Tennis-Refactoring-Kata]
 
 # Book
 - *The Art of Unit Test
