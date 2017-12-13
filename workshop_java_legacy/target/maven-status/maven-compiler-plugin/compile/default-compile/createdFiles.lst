@@ -1,0 +1,8 @@
+demo/Application.class
+demo/domain/Contact.class
+demo/service/ContactService.class
+demo/api/BaseController.class
+demo/api/ContactController.class
+demo/config/Config.class
+demo/sample/SampleContacts.class
+demo/repository/ContactRepository.class
