@@ -9,14 +9,14 @@
 - Refactoring
 - [Tennis Kata](https://github.com/emilybache/Tennis-Refactoring-Kata)
 - [Spring Boot](https://github.com/up1/workshop_java_legacy)
-- [Java TDD Course](github,com/up1/course-java-tdd-basic)
+- [Java TDD Course](github.com/up1/course-java-tdd-basic)
 
 ## Start Jenkins Warfile
 ```sh
 java -jar jenkins.war --httpPort=9999
 ```
 
-## Start Sprintboot
+## Start Springboot
 ```sh
 mvn spring-boot:run
 ```
@@ -24,6 +24,15 @@ mvn spring-boot:run
 ## Jacoco coverage report
 ```sh
 mvn jacoco:report
+```
+## Run unit test
+```sh
+mvn surefire:test
+```
+
+## Run integration test
+```sh
+mvn failsafe:integration-test
 ```
 
 # Book
