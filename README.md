@@ -8,6 +8,7 @@
 - JUnit data driven
 - Refactoring
 - (Tennis Kata)[https://github.com/emilybache/Tennis-Refactoring-Kata]
+- (Spring Boot)[https://github.com/up1/workshop_java_legacy]
 
 # Book
 - *The Art of Unit Test
