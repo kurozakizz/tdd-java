@@ -20,6 +20,11 @@ java -jar jenkins.war --httpPort=9999
 mvn spring-boot:run
 ```
 
+## Jacoco coverage report
+```sh
+mvn jacoco:report
+```
+
 # Book
 - *The Art of Unit Test
 - *TDD by Example
