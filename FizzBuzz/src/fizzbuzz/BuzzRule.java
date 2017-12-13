@@ -1,12 +1,14 @@
 package fizzbuzz;
 
-class BuzzRule {
+class BuzzRule implements Rule {
 
-    boolean validate(int number) {
+    @Override
+    public boolean validate(int number) {
         return (number % 5) == 0;
     }
 
-    String say() {
+    @Override
+    public String say() {
         return "Buzz";
     }
     
