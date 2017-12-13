@@ -6,8 +6,14 @@
 - OCP เปิดสำหรับการเพิ่ม ปิดสำหรับการแก้
 - Loose Coupling High Cohesion
 - JUnit data driven
+- Refactoring
 
 # Book
-- The Art of Unit Test
-- TDD by Example
+- *The Art of Unit Test
+- *TDD by Example
 - Effective Unit Test
+- *Refactoring (Martin Fowler)
+- Refactoring to Patterns(Joshua Kerievsky)
+- *Clean Code
+- Clean Coder
+- *The Pragmatic Programmer
