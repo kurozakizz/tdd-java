@@ -7,8 +7,8 @@
 - Loose Coupling High Cohesion
 - JUnit data driven
 - Refactoring
-- (Tennis Kata)[https://github.com/emilybache/Tennis-Refactoring-Kata]
-- (Spring Boot)[https://github.com/up1/workshop_java_legacy]
+- [Tennis Kata](https://github.com/emilybache/Tennis-Refactoring-Kata)
+- [Spring Boot](https://github.com/up1/workshop_java_legacy)
 
 # Book
 - *The Art of Unit Test
@@ -21,5 +21,5 @@
 - *The Pragmatic Programmer
 
 # References
-- (Refactoring techniques)[https://sourcemaking.com/refactoring/refactorings]
-- (Code Smells)[https://sourcemaking.com/refactoring/smells]
+- [Refactoring techniques](https://sourcemaking.com/refactoring/refactorings)
+- [Code Smells](https://sourcemaking.com/refactoring/smells)
