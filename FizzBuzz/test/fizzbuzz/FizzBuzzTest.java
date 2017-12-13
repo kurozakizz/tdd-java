@@ -8,31 +8,31 @@ public class FizzBuzzTest {
     
     @Test
     public void saySame () {
-        assertEquals("1", fizzbuzz.Say(1));
-        assertEquals("2", fizzbuzz.Say(2));
-        assertEquals("4", fizzbuzz.Say(4));
-        assertEquals("7", fizzbuzz.Say(7));
-        assertEquals("8", fizzbuzz.Say(8));
+        assertEquals("1", fizzbuzz.say(1));
+        assertEquals("2", fizzbuzz.say(2));
+        assertEquals("4", fizzbuzz.say(4));
+        assertEquals("7", fizzbuzz.say(7));
+        assertEquals("8", fizzbuzz.say(8));
     }
     
     
     @Test
     public void sayFizz () {
-        assertEquals("Fizz", fizzbuzz.Say(3));
-        assertEquals("Fizz", fizzbuzz.Say(6));
-        assertEquals("Fizz", fizzbuzz.Say(9));
+        assertEquals("Fizz", fizzbuzz.say(3));
+        assertEquals("Fizz", fizzbuzz.say(6));
+        assertEquals("Fizz", fizzbuzz.say(9));
     }
     
     @Test
     public void sayBuzz () {
-        assertEquals("Buzz", fizzbuzz.Say(5));
-        assertEquals("Buzz", fizzbuzz.Say(10));
+        assertEquals("Buzz", fizzbuzz.say(5));
+        assertEquals("Buzz", fizzbuzz.say(10));
     }
     
     @Test
     public void sayFizzBuzz () {
-        assertEquals("FizzBuzz", fizzbuzz.Say(15));
-        assertEquals("FizzBuzz", fizzbuzz.Say(30));
+        assertEquals("FizzBuzz", fizzbuzz.say(15));
+        assertEquals("FizzBuzz", fizzbuzz.say(30));
     }
     
     

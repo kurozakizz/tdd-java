@@ -2,20 +2,22 @@ package fizzbuzz;
 
 public class FizzBuzz {
 
-    public String Say(int number) {
+    public String say(int number) throws InvalidRuleException {
         
         Rule[] allRule = new Rule[] {
             new FizzBuzzRule(),
             new FizzRule(),
-            new BuzzRule()
+            new BuzzRule(),
+            new DefaultRule()
         };
+        
         for (Rule rule: allRule) {
             if (rule.validate(number)) {
                 return rule.say();
             }
         }
         
-        return String.format("%d", number);
+        throw new InvalidRuleException();
     }
     
 }

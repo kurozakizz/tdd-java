@@ -30,7 +30,7 @@ public class FizzBuzzWithDataTest {
     @Test
     public void fizzBuzzTest() {
         FizzBuzz fizzBuzz = new FizzBuzz();
-        assertEquals(expectedResult, fizzBuzz.Say(input));
+        assertEquals(expectedResult, fizzBuzz.say(input));
     }
     
 }
